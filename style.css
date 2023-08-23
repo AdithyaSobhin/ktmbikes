@@ -1,0 +1,100 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ .navlink a{
+   font-size: 18px;
+   font-weight: bolder;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+      
+ }
+ 
+ .header-ul{
+    color: white;
+ }
+
+ .buttonhead{
+   background-color:#f60;
+   color: white;
+   padding: 10px 20px 10px 20px;
+   border-color:#f60;
+
+ }
+
+
+ 
+ .carousel-caption{
+    margin-bottom: 250px;
+ }
+ .carousel-caption h3{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+ }
+ .carousel-caption p{
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .model li{
+   list-style: none;
+   
+   
+ }
+ .model a{
+   text-decoration: none;
+   color:white;
+   font-size: 17px;
+   
+
+ }
+ .model a:hover{
+  color: #f60;
+ }
+ .newscard a{
+   text-decoration: none;
+   color: black;
+
+ }
+ .newscard h2:hover{
+   color: #f60;
+ }
+ .footerdiv li{
+  list-style: none;
+ }
+
+ 
+ 
+ @media (max-width: 600px){
+    .carousel-caption{
+        margin-bottom:10px;
+    } 
+
+    .carousel-caption h3{
+        font-size:40px;
+        
+        
+    }
+    .carousel-caption p{
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .cardimage{
+      margin: 20px;
+      
+   
+    }
+    .cardpara{
+      font-size: 18px;
+      text-align: center;
+
+    }
+    .cardhead{
+      font-size: 30px;
+      text-align: center;
+    }
+   .size{
+      padding-left: 10px;
+   }
+    
+ }
